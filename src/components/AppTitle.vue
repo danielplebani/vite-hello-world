@@ -2,15 +2,19 @@
   export default{
     data(){
       return{
-        msg2: 'La mia prima app con Vite!'
+        msg: 'La mia prima app con Vite!'
       }
     }
   }
 </script>
 
 <template>
-  <h3>{{msg2}}</h3>
+  <h2>{{msg}}</h2>
 </template>
 
 <style>
+  h2{
+    color: red;
+    background-color: lightblue;
+  }
 </style>

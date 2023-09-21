@@ -21,4 +21,7 @@
 </template>
 
 <style>
+  h1{
+    background-color: blueviolet;
+  }
 </style>
