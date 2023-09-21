@@ -1,9 +1,11 @@
 <script>
   import AppTitle from './components/AppTitle.vue'
+  import AppHero from './components/AppHero.vue'
 
   export default{
     components: {
-    AppTitle
+    AppTitle,
+    AppHero
     },
 
     data(){
@@ -15,13 +17,12 @@
 </script>
 
 <template>
-  <h1>{{msg}}</h1>
+  <h1 class="bg-success">{{msg}}</h1>
 
-  <AppTitle></AppTitle>
+  <AppTitle class="mb-5"></AppTitle>
+
+  <AppHero></AppHero>
 </template>
 
 <style>
-  h1{
-    background-color: blueviolet;
-  }
 </style>
